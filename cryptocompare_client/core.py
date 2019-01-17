@@ -314,7 +314,7 @@ class CryptocompareClient(object):
 
         try:
             if sub_id == '0': # TRADE
-                keys = ['SubscriptionId','ExchangeName','CurrencySymbol','CurrencySymbol','Flag','TradeId','TimeStamp','Quantity','Price','Total']
+                keys = ['SubscriptionId','ExchangeName','Symbol','CurrencySymbol','Flag','TradeId','TimeStamp','Quantity','Price','Total']
                 res = dict(zip(keys, response_list))
 
             elif sub_id == '2' or sub_id == '5': # CURRENT / CURRENTAGG
