@@ -42,7 +42,9 @@ class CryptocompareClient(object):
             namespace (optional): socketIO Namespace used to handle events.
                 Defaults to None.
         """
-
+        # define initial btc and eth prices 
+        self.btc = 0
+        self.eth = 0
         if isinstance(sub_strings, basestring):
             sub_strings = [sub_strings]
 
