@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='cryptocompare-client',
-    version='0.1.4',
+    version='0.1.5',
     description='Client Wrapper for CryptoCompare API',
     author='Timo Stöttner',
     author_email='mail@timo-stoettner.de',
